@@ -88,3 +88,15 @@ Basic-C-Programs/
 │
 ├── README.md
 └── LICENSE
+
+## 🛠️ How to Run
+1. Clone the repository  
+2. Open terminal in the project folder  
+3. Compile the program:
+   gcc program_name.c -o program
+4. Run the program:
+   ./program
+
+## 👨‍💻 Author
+Prakruthi S L  
+Computer Science Engineering Student.
