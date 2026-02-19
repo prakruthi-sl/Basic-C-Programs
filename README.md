@@ -87,7 +87,6 @@ Basic-C-Programs/
 │   ├── bank_management_system.c
 │
 ├── README.md
-└── LICENSE
 
 ## 🛠️ How to Run
 1. Clone the repository  
