@@ -1,5 +1,7 @@
+/* Problem Statement:
+   Write a C program to demonstrate the use of switch-case statement.
+*/
 #include <stdio.h>
-
 int main() {
     int choice;
     printf("1.Add 2.Sub\n");
