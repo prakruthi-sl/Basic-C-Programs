@@ -1,5 +1,7 @@
+/* Problem Statement:
+   Write a C program to demonstrate the use of a while loop.
+*/
 #include <stdio.h>
-
 int main() {
     int i=1;
     while(i<=5) {
