@@ -2,7 +2,8 @@
    Write a C program to print "Hello, World!" on the screen.
 */
 #include <stdio.h>
-int main() {
+int main() 
+{
     printf("Hello, World!\n");
     return 0;
 }
