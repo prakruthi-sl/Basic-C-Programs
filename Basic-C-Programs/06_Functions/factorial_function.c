@@ -1,12 +1,16 @@
+/* Problem Statement:
+   Write a C program to find the factorial of a given number using a function.
+*/
 #include <stdio.h>
-
-int factorial(int n) {
+int factorial(int n) 
+{
     int f=1;
-    for(int i=1;i<=n;i++) f*=i;
+    for(int i=1;i<=n;i++) 
+        f*=i;
     return f;
 }
-
-int main() {
+int main() 
+{
     int n;
     scanf("%d",&n);
     printf("%d", factorial(n));
