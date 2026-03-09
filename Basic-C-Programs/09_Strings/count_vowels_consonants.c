@@ -12,8 +12,8 @@ int main()
         char ch=s[i];
         if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u') 
           v++;
-        else 
-         if(ch>='a'&&ch<='z') 
+       else 
+        if(ch>='a'&&ch<='z') 
           c++;
      }
      printf("Vowels=%d Consonants=%d",v,c);
