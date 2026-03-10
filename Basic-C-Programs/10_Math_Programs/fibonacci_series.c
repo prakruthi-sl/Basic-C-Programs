@@ -1,10 +1,16 @@
+/* Problem Statement:
+   Write a C program to generate the Fibonacci series.
+*/
 #include <stdio.h>
-
-int main() {
+int main() 
+{
     int n,a=0,b=1,c;
     scanf("%d",&n);
-    for(int i=1;i<=n;i++){
+    for(int i=1;i<=n;i++)
+    {
         printf("%d ",a);
-        c=a+b; a=b; b=c;
+        c=a+b; 
+        a=b; 
+        b=c;
     }
 }
