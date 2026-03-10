@@ -1,9 +1,13 @@
+/* Problem Statement:
+   Write a C program to check whether a number is prime.
+*/
 #include <stdio.h>
-
-int main() {
+int main() 
+{
     int n,flag=1;
     scanf("%d",&n);
     for(int i=2;i<n;i++)
-        if(n%i==0) flag=0;
+        if(n%i==0) 
+          flag=0;
     printf(flag?"Prime":"Not Prime");
 }
