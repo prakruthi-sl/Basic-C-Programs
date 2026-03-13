@@ -1,11 +1,15 @@
+/* Problem Statement:
+   Write a C program to demonstrate the use of structures.
+*/
 #include <stdio.h>
-
-struct Student {
+struct Student 
+{
     int id;
     char name[20];
 };
 
-int main(){
+int main()
+{
     struct Student s={1,"Prakruthi"};
     printf("%d %s",s.id,s.name);
 }
