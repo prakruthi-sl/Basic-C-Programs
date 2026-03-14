@@ -1,11 +1,15 @@
+/* Problem Statement:
+   Write a C program to store and display student records using structures.
+*/
 #include <stdio.h>
-
-struct Student{
+struct Student
+{
     int id;
     char name[20];
 };
 
-int main(){
+int main()
+{
     struct Student s;
     scanf("%d%s",&s.id,s.name);
     printf("%d %s",s.id,s.name);
