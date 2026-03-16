@@ -1,6 +1,9 @@
+/* Problem Statement:
+   Write a C program to read data from a file.
+*/
 #include <stdio.h>
-
-int main() {
+int main() 
+{
     FILE *f=fopen("test.txt","r");
     char ch;
     while((ch=fgetc(f))!=EOF)
